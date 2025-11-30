@@ -113,3 +113,50 @@ h2 {
         padding: 20px;
     }
 }
+.footer {
+  background: #081b29;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.footer-social .icon svg {
+  width: 32px;
+  height: 32px;
+  fill: white;
+  transition: 0.4s;
+  filter: drop-shadow(0 0 0px #00aaff);
+}
+
+.footer-social .icon:hover svg {
+  transform: scale(1.25);
+  filter: drop-shadow(0 0 8px #00eaff) drop-shadow(0 0 15px #00eaff);
+}
+
+/* Couleurs personnalisées au survol */
+.icon.whatsapp:hover svg {
+  color: #25D366;
+  filter: drop-shadow(0 0 8px #25D366);
+}
+
+.icon.instagram:hover svg {
+  color: #E1306C;
+  filter: drop-shadow(0 0 8px #E1306C);
+}
+
+.icon.github:hover svg {
+  color: #ffffff;
+  filter: drop-shadow(0 0 8px #ffffff);
+}
+
+.footer-credit {
+  font-size: 14px;
+  opacity: 0.7;
+}
